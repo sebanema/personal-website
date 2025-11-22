@@ -157,6 +157,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.btn-primary,
+.btn-cta {
+  text-decoration: none;
+}
+
 .content a {
   color: var(--brand-color);
   text-decoration: underline;
@@ -168,6 +173,9 @@ a:hover {
   color: #020617;
 }
 
+.content a.btn-primary,
+.content a.btn-primary:hover,
+.content a.btn-primary:focus,
 .content a.btn-cta,
 .content a.btn-cta:hover,
 .content a.btn-cta:focus {
