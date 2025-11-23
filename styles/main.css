@@ -47,6 +47,17 @@ body {
   justify-content: center;
 }
 
+.sidebar-logo:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar-logo:hover,
+.sidebar-logo:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .sidebar-nav {
   display: flex;
   flex-direction: column;
@@ -297,6 +308,7 @@ footer {
   align-items: baseline;
   padding: 0.75rem 0;
   border-bottom: 1px solid #d4d4d4;
+  transition: background-color 0.15s ease, transform 0.1s ease;
 }
 
 .writing-item {
@@ -311,6 +323,14 @@ footer {
 .writing-date {
   font-size: 0.95rem;
   opacity: 0.7;
+}
+
+.writing-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.writing-list li:hover .post-title {
+  color: var(--brand-muted);
 }
 
 .post-body {
