@@ -27,3 +27,11 @@ Visit `http://localhost:8000` to preview.
 - Entry point: `index.html` at the project root.
 - Assets live in the `/styles`, `/images`, and root `favicon.ico` paths to be friendly with GitHub Pages.
 - Custom domain `sebanema.xyz` is configured through the `CNAME` file.
+
+## Caching for static assets
+If your host supports custom headers (e.g., GitHub Pages via a proxy, Netlify, Cloudflare Pages), set long-lived cache headers for rarely-changing assets:
+
+- `/images/*`: `Cache-Control: public, max-age=31536000, immutable`
+- `/styles/*`: `Cache-Control: public, max-age=31536000, immutable`
+
+GitHub Pages does not read `_headers` files by default, so configure this at the CDN/proxy layer if available.

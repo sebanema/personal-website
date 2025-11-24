@@ -413,6 +413,7 @@ footer {
   src: url("/fonts/NimbusSans-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
   /* If this file does not exist yet, it is fine - the browser will fall back
      to the next fonts in the list. */
 }
@@ -421,7 +422,7 @@ footer {
 
 .post-title {
   font-family: "PT Serif", Georgia, ui-serif, Cambria, "Times New Roman", Times, serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
   margin: 0;
   display: block;

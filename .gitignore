@@ -1,0 +1,5 @@
+# Local virtual environments
+.venv/
+
+# OS files
+.DS_Store

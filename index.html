@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sebastian Anema — About</title>
+  <link rel="preload" href="/styles/main.css" as="style" />
   <link rel="stylesheet" href="/styles/main.css" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
@@ -36,7 +37,8 @@
             </div>
 
             <figure class="about-photo">
-              <img src="/images/profile.png" alt="Portrait of Sebastian Anema" />
+              <img src="/images/profile.png" alt="Portrait of Sebastian Anema" width="220" height="220" fetchpriority="high" sizes="(max-width: 768px) 160px, 220px" />
+              <!-- Perf: explicit dimensions + high fetch priority for LCP image; replace with optimized ~220x220 WebP/AVIF when convenient -->
             </figure>
           </div>
         </section>
