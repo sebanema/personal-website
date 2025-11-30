@@ -448,6 +448,12 @@ footer {
   text-decoration: none;
 }
 
+.post-title,
+.post-title-link,
+.post-title-link:visited {
+  color: #111111;
+}
+
 /* Post list titles inherit the same styling as post pages */
 /* Add some breathing room for overall post content */
 
