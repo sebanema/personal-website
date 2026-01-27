@@ -493,7 +493,24 @@ footer {
   margin: 0 0 2.5rem; /* no top margin so it lines up nicely */
   font-weight: 700;
   font-family: "PT Serif", Georgia, ui-serif, Cambria, "Times New Roman", Times, serif;
+  position: relative;
+  z-index: 2;
 }
+
+.site-name a {
+  color: inherit;
+  text-decoration: none !important;
+  display: inline-block;
+  pointer-events: auto;
+}
+
+.site-name a:hover,
+.site-name a:focus {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+/* Keep home links clickable, but prevent reload via JS on the home page. */
 
 .writing-list .post-title,
 .post .post-title {

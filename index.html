@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png" />
   <link rel="icon" type="image/png" sizes="512x512" href="/favicons/android-chrome-512x512.png" />
 </head>
-<body>
+<body class="is-home">
   <div class="page-layout">
     <aside class="sidebar">
       <a href="/" class="sidebar-logo">SA</a>
@@ -27,7 +27,7 @@
     <main class="content" id="top">
       <div class="content-inner">
         <header class="content-header">
-          <h1 class="site-name">SEBASTIAN ANEMA</h1>
+          <h1 class="site-name"><a href="/">SEBASTIAN ANEMA</a></h1>
         </header>
 
         <section id="about" class="content-section active">
@@ -81,6 +81,15 @@
     if (yearEl) {
       yearEl.textContent = y;
     }
+
+    const homeLinks = document.querySelectorAll('.site-name a, .sidebar-logo');
+    homeLinks.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        if (window.location.pathname === '/' || window.location.pathname.endsWith('/index.html')) {
+          event.preventDefault();
+        }
+      });
+    });
   </script>
 </body>
 </html>
