@@ -298,7 +298,7 @@ footer {
 /* Writing list layout */
 .writing-list {
   list-style: none;
-  margin: 0;
+  margin: 0.5rem 0 0;
   padding: 0;
 }
 
@@ -310,6 +310,7 @@ footer {
   border-bottom: 1px solid #d4d4d4;
   transition: background-color 0.15s ease, transform 0.1s ease;
 }
+
 
 .writing-item {
   display: flex;
@@ -432,25 +433,22 @@ footer {
 /* Links in the Writing index should look like titles, not underlined */
 .post-title-link {
   text-decoration: none;
-  color: inherit;
 }
 
-.post-title-link:visited {
-  color: inherit;
-}
-
-.post-title-link:hover {
+/* Override base link styling for title links inside content */
+.content a.post-title-link,
+.content a.post-title-link:visited {
+  color: #111111;
   text-decoration: none;
 }
 
-/* Override base link underline for title links inside content */
-.content a.post-title-link {
+.content a.post-title-link:hover,
+.content a.post-title-link:focus {
+  color: var(--brand-muted);
   text-decoration: none;
 }
 
-.post-title,
-.post-title-link,
-.post-title-link:visited {
+.post-title {
   color: #111111;
 }
 
