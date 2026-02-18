@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastian Anema — Writing</title>
+    <link>https://sebanema.xyz/writing/</link>
+    <description>Essays by Sebastian Anema on systems, finance, AI, and personal experiments.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Feb 2026 14:10:02 GMT</lastBuildDate>
+    <atom:link href="https://sebanema.xyz/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Social Media is Frying Our Brains</title>
+      <link>https://sebanema.xyz/writing/social-media.html</link>
+      <guid>https://sebanema.xyz/writing/social-media.html</guid>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>An Authentic Honeymoon in 2080</title>
+      <link>https://sebanema.xyz/writing/an-authentic-honeymoon-in-2080.html</link>
+      <guid>https://sebanema.xyz/writing/an-authentic-honeymoon-in-2080.html</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Sam Walton: Made in America</title>
+      <link>https://sebanema.xyz/writing/sam-walton-made-in-america.html</link>
+      <guid>https://sebanema.xyz/writing/sam-walton-made-in-america.html</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>The Quarter Life Crisis</title>
+      <link>https://sebanema.xyz/writing/the-quarter-life-crisis.html</link>
+      <guid>https://sebanema.xyz/writing/the-quarter-life-crisis.html</guid>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>CFA Level 2 Exam: Passing in Under 300 Hours of Study</title>
+      <link>https://sebanema.xyz/writing/cfa-level-2.html</link>
+      <guid>https://sebanema.xyz/writing/cfa-level-2.html</guid>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Happy 60th Birthday Dad</title>
+      <link>https://sebanema.xyz/writing/Dad60.html</link>
+      <guid>https://sebanema.xyz/writing/Dad60.html</guid>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>How to pass your CFA level 1 exam in less than 300 hours of study</title>
+      <link>https://sebanema.xyz/writing/cfa-level-1.html</link>
+      <guid>https://sebanema.xyz/writing/cfa-level-1.html</guid>
+      <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
