@@ -252,6 +252,38 @@ a:hover {
   display: none;
 }
 
+.featured-project {
+  margin: 0 0 1.75rem;
+  padding: 0.95rem 1rem;
+  border-left: 3px solid var(--brand-color);
+  background: #f8fafc;
+}
+
+.featured-label {
+  margin: 0 0 0.2rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.featured-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.featured-title a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.featured-summary {
+  margin: 0;
+  color: #1f2937;
+}
+
 .qualifications-list {
   list-style: none;
   margin: 0 0 1.25rem;
