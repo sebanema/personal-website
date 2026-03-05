@@ -27,6 +27,7 @@ Visit `http://localhost:8000` to preview.
 - Entry point: `index.html` at the project root.
 - Assets live in the `/styles`, `/images`, and root `favicon.ico` paths to be friendly with GitHub Pages.
 - Custom domain `sebanema.xyz` is configured through the `CNAME` file.
+- Persistent project context for future Codex sessions lives in `docs/site-context.md`.
 
 ## Caching for static assets
 If your host supports custom headers (e.g., GitHub Pages via a proxy, Netlify, Cloudflare Pages), set long-lived cache headers for rarely-changing assets:
