@@ -8,9 +8,10 @@
   <link rel="preload" href="/styles/main.css" as="style" />
   <link rel="stylesheet" href="/styles/main.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-  <link rel="icon" href="/favicons/favicon.ico" />
   <link rel="manifest" href="/favicons/site.webmanifest" />
   <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-chrome-192x192.png" />
   <link rel="icon" type="image/png" sizes="512x512" href="/favicons/android-chrome-512x512.png" />
@@ -38,39 +39,98 @@
           <div class="featured-project">
             <p class="featured-label">Featured</p>
             <h2 class="featured-title">
-              <a href="https://docs.google.com/document/d/1VsFSn2jiEseoYuaAIMTmpA9R14KPxYgA6ZgSuTcLGv0/edit?usp=sharing" target="_blank" rel="noreferrer">Foreshore development model (Demo)</a>
+              <span class="featured-title-row">
+                <img src="/images/work/apartment.avif" alt="Apartment development icon" class="work-logo" loading="lazy" decoding="async" />
+                <a href="https://docs.google.com/document/d/1VsFSn2jiEseoYuaAIMTmpA9R14KPxYgA6ZgSuTcLGv0/edit?usp=sharing" target="_blank" rel="noreferrer">Foreshore development model (Demo)</a>
+              </span>
             </h2>
             <p class="featured-summary">Advanced 3-statement development financial model for a 115-unit residential project in Cape Town Foreshore. It showcases cash waterfall modelling techniques, debt sculpting, DSRA ring-fencing, sensitivity analysis and more.</p>
           </div>
 
           <h2 class="toggle-heading toggle-level-2">
             <span class="toggle-row">
-              <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-professional-experience" aria-label="Toggle Notable Professional Experience">
+              <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-professional-experience" aria-label="Toggle Professional Experience">
                 <span class="toggle-chevron" aria-hidden="true"></span>
               </button>
-              <span class="toggle-title">Notable Professional Experience</span>
+              <span class="toggle-title">Professional Experience</span>
             </span>
           </h2>
           <div class="toggle-content" id="toggle-professional-experience">
-            <h2 class="toggle-heading toggle-level-2">
-              <span class="toggle-row">
-                <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-yellow-africa" aria-label="Toggle Yellow Africa details">
-                  <span class="toggle-chevron" aria-hidden="true"></span>
-                </button>
-                <img src="/images/work/yellow_africa_logo.jpg" alt="Yellow Africa logo" class="work-logo" loading="lazy" decoding="async" />
-                <span class="toggle-title"><a href="https://yellow.africa/" target="_blank" rel="noreferrer">Yellow Africa</a> (2023-2025)</span>
-              </span>
-            </h2>
-            <div class="toggle-content" id="toggle-yellow-africa">
+            <article class="experience-item">
+              <div class="experience-header">
+                <div class="experience-heading-row">
+                  <img src="/images/work/yellow_africa_logo.jpg" alt="Yellow Africa logo" class="work-logo" loading="lazy" decoding="async" />
+                  <h3 class="experience-role">Financial Analyst</h3>
+                </div>
+                <p class="experience-meta"><a href="https://yellow.africa/" target="_blank" rel="noreferrer">Yellow Africa</a> · 2023 - 2025</p>
+              </div>
+              <p>Yellow delivers life-changing pay-as-you-go products on a technology-led distribution system to low-income households in Africa.</p>
               <ul>
                 <li>Automated payments, accounting, tax, compliance, and regulatory workflows inside our Zoho ERP workspace.</li>
                 <li>Upgraded payment request and payroll systems to support hundreds of employees across 8 legal entities.</li>
                 <li>Co-built and owned the capital allocation model (updated monthly), linking business drivers to target setting, FX transactions, and treasury decisions.</li>
                 <li>Owned the Opex model used for monthly management reporting.</li>
+                <li>Owned the end-to-end production of a monthly FX report covering Yellow FX and broader African FX geopolitical risk for shareholders and the management team.</li>
                 <li>Supported management accounts and annual audits across 8 entities.</li>
               </ul>
-              <p>Tools: Excel, Zoho (ERP), SQL, Python</p>
-            </div>
+              <p class="experience-tools">Tools: Excel, Zoho (ERP), SQL, Python</p>
+            </article>
+
+            <article class="experience-item">
+              <div class="experience-header">
+                <div class="experience-heading-row">
+                  <img src="/images/work/hyperli.jpg" alt="Hyperli logo" class="work-logo" loading="lazy" decoding="async" />
+                  <h3 class="experience-role">Strategy and Operations Analyst</h3>
+                </div>
+                <p class="experience-meta">Hyperli · Mar 2023 - Jun 2023</p>
+              </div>
+              <p>Hyperli connects thousands of partners and customers every day through authentic experiences.</p>
+              <ul>
+                <li>Improved the sales team's operational processes using data analysis and lightweight automation.</li>
+                <li>Used code to automate financial reporting workflows.</li>
+              </ul>
+            </article>
+
+            <article class="experience-item">
+              <div class="experience-header">
+                <div class="experience-heading-row">
+                  <img src="/images/work/invictus.png" alt="Invictus Capital logo" class="work-logo" loading="lazy" decoding="async" />
+                  <h3 class="experience-role">Invictus Capital</h3>
+                </div>
+              </div>
+              <p>Invictus gives investors easy access to innovative investment funds through our blockchain-powered investment platform.</p>
+
+              <div class="experience-subrole">
+                <p class="experience-subrole-title">Sales Graduate · Feb 2022 - Jun 2022</p>
+                <ul>
+                  <li>Supported business development for a blockchain-powered investment platform.</li>
+                  <li>Managed institution and client relationships.</li>
+                  <li>Wrote macroeconomic articles for investors.</li>
+                </ul>
+              </div>
+
+              <div class="experience-subrole">
+                <p class="experience-subrole-title">Quantitative Trading Intern · Nov 2020 - Mar 2021</p>
+                <ul>
+                  <li>Supported quantitative trading work.</li>
+                  <li>Built automated trade reporting and dashboards using Python, Heroku and Git.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="experience-item">
+              <div class="experience-header">
+                <div class="experience-heading-row">
+                  <img src="/images/work/rhenish.png" alt="Rhenish Girls' High School logo" class="work-logo" loading="lazy" decoding="async" />
+                  <h3 class="experience-role">Water Polo Coach</h3>
+                </div>
+                <p class="experience-meta">Rhenish Girls' High School · Jan 2020 - Dec 2020</p>
+              </div>
+              <p>Rhenish Primary School aspires to provide a diverse educational experience, for children to believe in themselves and discover their true potential.</p>
+              <ul>
+                <li>Coached school water polo on a part-time basis.</li>
+              </ul>
+            </article>
           </div>
 
           <h2 class="toggle-heading toggle-level-2">
@@ -92,38 +152,34 @@
               </span>
             </h3>
             <div class="toggle-content" id="toggle-financial-modelling">
-              <h3 class="toggle-heading toggle-level-3">
-                <span class="toggle-row">
-                  <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-foreshore-demo" aria-label="Toggle Foreshore development model demo details">
-                    <span class="toggle-chevron" aria-hidden="true"></span>
-                  </button>
-                  <span class="toggle-title"><a href="https://docs.google.com/document/d/1VsFSn2jiEseoYuaAIMTmpA9R14KPxYgA6ZgSuTcLGv0/edit?usp=sharing" target="_blank" rel="noreferrer">Foreshore development model (Demo)</a> (2026)</span>
-                </span>
-              </h3>
-              <div class="toggle-content" id="toggle-foreshore-demo">
+              <article class="project-item">
+                <div class="project-header">
+                  <div class="experience-heading-row">
+                    <img src="/images/work/apartment.avif" alt="Apartment development icon" class="work-logo" loading="lazy" decoding="async" />
+                    <h3 class="experience-role"><a href="https://docs.google.com/document/d/1VsFSn2jiEseoYuaAIMTmpA9R14KPxYgA6ZgSuTcLGv0/edit?usp=sharing" target="_blank" rel="noreferrer">Foreshore development model (Demo)</a></h3>
+                  </div>
+                  <p class="experience-meta">2026</p>
+                </div>
                 <ul>
-                  <li>An advanced 3-statement Excel model made for a 115-Unit Residential Development in Foreshore, Cape Town.</li>
+                  <li>An advanced 3-statement Excel model made for a 115-unit residential development in Foreshore, Cape Town.</li>
                   <li>Features pari passu debt sweeps, cash flow waterfalls, DSRA ring-fencing, multi-variable scenario testing, debt sculpting, and CPI-linked indexation.</li>
                 </ul>
-                <p>Tools: Excel</p>
-              </div>
+                <p class="experience-tools">Tools: Excel</p>
+              </article>
 
-              <h3 class="toggle-heading toggle-level-3">
-                <span class="toggle-row">
-                  <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-budgetalpha" aria-label="Toggle BudgetAlpha details">
-                    <span class="toggle-chevron" aria-hidden="true"></span>
-                  </button>
-                  <img src="/images/work/budgetalpha.png" alt="BudgetAlpha logo" class="work-logo" loading="lazy" decoding="async" />
-                  <span class="toggle-title"><a href="https://docs.google.com/spreadsheets/d/11VjvfBWHBC6mp7OK7vdU53oRBa6ADEe8j1LuoM_xXdw/edit?usp=sharing" target="_blank" rel="noreferrer">BudgetAlpha</a> (2024/25)</span>
-                </span>
-              </h3>
-              <div class="toggle-content" id="toggle-budgetalpha">
+              <article class="project-item">
+                <div class="project-header">
+                  <div class="experience-heading-row">
+                    <img src="/images/work/budgetalpha.png" alt="BudgetAlpha logo" class="work-logo" loading="lazy" decoding="async" />
+                    <h3 class="experience-role"><a href="https://docs.google.com/spreadsheets/d/11VjvfBWHBC6mp7OK7vdU53oRBa6ADEe8j1LuoM_xXdw/edit?usp=sharing" target="_blank" rel="noreferrer">BudgetAlpha</a></h3>
+                  </div>
+                  <p class="experience-meta">2024 - 2025</p>
+                </div>
                 <ul>
                   <li>Personal budgeting tool I used monthly.</li>
                 </ul>
-                <p><a href="https://docs.google.com/spreadsheets/d/11VjvfBWHBC6mp7OK7vdU53oRBa6ADEe8j1LuoM_xXdw/edit?usp=sharing" target="_blank" rel="noreferrer">See template here.</a></p>
-                <p>Tools: Google Sheets</p>
-              </div>
+                <p class="experience-tools">Tools: Google Sheets</p>
+              </article>
             </div>
 
             <h3 class="toggle-heading toggle-level-3">
@@ -136,39 +192,34 @@
               </span>
             </h3>
             <div class="toggle-content" id="toggle-software-development">
-              <h3 class="toggle-heading toggle-level-3">
-                <span class="toggle-row">
-                  <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-wom" aria-label="Toggle WOM details">
-                    <span class="toggle-chevron" aria-hidden="true"></span>
-                  </button>
-                  <img src="/images/work/wom.png" alt="WOM logo" class="work-logo" loading="lazy" decoding="async" />
-                  <span class="toggle-title"><a href="https://getwom.app/" target="_blank" rel="noreferrer">WOM (Word of Mouth) App</a> (2025)</span>
-                </span>
-              </h3>
-              <div class="toggle-content" id="toggle-wom">
+              <article class="project-item">
+                <div class="project-header">
+                  <div class="experience-heading-row">
+                    <img src="/images/work/wom.png" alt="WOM logo" class="work-logo" loading="lazy" decoding="async" />
+                    <h3 class="experience-role"><a href="https://getwom.app/" target="_blank" rel="noreferrer">WOM (Word of Mouth) App</a></h3>
+                  </div>
+                  <p class="experience-meta">2025</p>
+                </div>
                 <ul>
                   <li>Peer-to-peer recommendations, similar to <a href="https://hypelist.com/" target="_blank" rel="noreferrer">Hypelist</a>.</li>
                   <li>Max test usage reached ~20 users. Not maintained.</li>
                 </ul>
-                <p><a href="https://getwom.app/" target="_blank" rel="noreferrer">See project here.</a></p>
-                <p>Tools: Node.js, React</p>
-              </div>
+                <p class="experience-tools">Tools: Node.js, React</p>
+              </article>
 
-              <h3 class="toggle-heading toggle-level-3">
-                <span class="toggle-row">
-                  <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-personal-website" aria-label="Toggle Personal website details">
-                    <span class="toggle-chevron" aria-hidden="true"></span>
-                  </button>
-                  <img src="/favicons/favicon-32x32.png" alt="Personal website favicon" class="work-logo" loading="lazy" decoding="async" />
-                  <span class="toggle-title">Personal website (2025-)</span>
-                </span>
-              </h3>
-              <div class="toggle-content" id="toggle-personal-website">
+              <article class="project-item">
+                <div class="project-header">
+                  <div class="experience-heading-row">
+                    <img src="/favicons/favicon-32x32.png" alt="Personal website favicon" class="work-logo" loading="lazy" decoding="async" />
+                    <h3 class="experience-role">Personal website</h3>
+                  </div>
+                  <p class="experience-meta">2025 - present</p>
+                </div>
                 <ul>
                   <li>My corner of the internet for writing, projects, and what I'm doing now.</li>
                 </ul>
-                <p>Tools: HTML, CSS, JavaScript</p>
-              </div>
+                <p class="experience-tools">Tools: HTML, CSS, JavaScript</p>
+              </article>
             </div>
           </div>
 
@@ -193,17 +244,7 @@
             </ul>
           </div>
 
-          <h2 class="toggle-heading toggle-level-2">
-            <span class="toggle-row">
-              <button class="toggle-button" type="button" aria-expanded="false" aria-controls="toggle-cv" aria-label="Toggle CV">
-                <span class="toggle-chevron" aria-hidden="true"></span>
-              </button>
-              <span class="toggle-title">CV</span>
-            </span>
-          </h2>
-          <div class="toggle-content" id="toggle-cv">
-            <p><a href="https://drive.google.com/file/d/1mSL5Rg4jibEZ1Sy8nkC96AydaTS156Sv/view?usp=sharing" target="_blank" rel="noreferrer">See CV here.</a></p>
-          </div>
+          <p class="cv-link"><a href="https://drive.google.com/file/d/1mSL5Rg4jibEZ1Sy8nkC96AydaTS156Sv/view?usp=sharing" target="_blank" rel="noreferrer">See CV here.</a></p>
         </section>
       </div>
     </main>

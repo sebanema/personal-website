@@ -1,6 +1,6 @@
 # Personal Website Context
 
-Last updated: 2026-03-05
+Last updated: 2026-03-06
 
 ## Purpose
 - Static personal website for Sebastian Anema.
@@ -82,8 +82,11 @@ Use this section to preserve decisions across Codex conversations.
 ### 2026-03-05
 - Created this file as the persistent context source of truth for future edits.
 - Captured current architecture, layout conventions, styling patterns, and content rules.
-- Work page (`/work/`) now uses nested Notion-style toggles with semantic structure: separate chevron toggle button + separate heading/link content.
-- Work page default state is collapsed on load (including nested sections).
 - Personal Projects are grouped under `Financial Modelling` and `Software Development`.
 - Qualifications currently use icon-as-bullet styling (`SU.jpg`, `CFA.png`), and key project rows use icons (`excel.jpg`, `debug.png`, favicon for personal site).
 - Security review done: functionality passed; Cloudflare security headers recommended for later implementation.
+
+### 2026-03-06
+- Work page still collapses top-level sections on load, but inner professional experience and project entries are now rendered as readable blocks instead of deeply nested per-item toggles.
+- Professional Experience is role-first; repeated-company roles can be bundled under one company block (example: Invictus Capital).
+- Project titles are the primary links; extra CTA links under project cards were removed to keep the page simpler.
