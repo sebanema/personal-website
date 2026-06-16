@@ -2,6 +2,8 @@
   --brand-color: #0b1f3e;
   --brand-muted: #0f284c;
   --link-hover-color: #020617;
+  --font-serif: "PT Serif", Georgia, ui-serif, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -10,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: "PT Serif", Georgia, ui-serif, Cambria, "Times New Roman", Times, serif;
+  font-family: var(--font-serif);
   background: #ffffff;
   color: #111111;
   line-height: 1.7;
@@ -641,16 +643,6 @@ footer {
 
 /* Typography for site author and post titles */
 
-@font-face {
-  font-family: "NimbusSansBold";
-  src: url("/fonts/NimbusSans-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  /* If this file does not exist yet, it is fine - the browser will fall back
-     to the next fonts in the list. */
-}
-
 /* Post title styling (detail pages and writing index) */
 
 .post-title {
@@ -738,6 +730,17 @@ footer {
 .site-name a:focus {
   color: var(--link-hover-color);
   text-decoration: none !important;
+}
+
+/* Sans-serif for nav, labels and dates; PT Serif stays for all prose and content headings */
+.sidebar-nav,
+.site-name,
+.toggle-heading,
+.featured-label,
+.experience-meta,
+.post-date,
+.writing-date {
+  font-family: var(--font-sans);
 }
 
 /* Keep home links clickable, but prevent reload via JS on the home page. */
